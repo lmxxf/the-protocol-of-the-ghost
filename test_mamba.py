@@ -14,7 +14,7 @@ print("=" * 60)
 print("\n正在加载 Falcon-Mamba-7B...")
 print("（首次运行需要下载约14GB，请耐心等待）\n")
 
-model_id = "tiiuae/Falcon3-Mamba-7B-Instruct"
+model_id = "tiiuae/Falcon3-Mamba-7B-Base"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(
     model_id,
